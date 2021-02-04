@@ -1,0 +1,251 @@
+h1{
+    font-size:50px;
+    text-align:center;
+    color: rgb(10, 204, 123);
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgb(10, 204, 123), 0 0 5px rgb(10, 204, 123);
+    letter-spacing: 15px;
+}
+h3{
+    text-align: center;
+    color:rgb(241, 132, 132);
+}
+
+
+/* Background images */
+body.background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.deutsch_flag{  background-image: url('../img/login.png');}
+.french_flag{  background-image: url('../img/signup.png');}
+
+
+
+
+
+/* home login signup */
+body.home{background-color: rgba(0, 0, 0, 0.959);}
+body.play{background-color: rgba(255, 254, 254, 0.959);}
+.form-div{
+    margin: 50px auto 0px;
+    padding: 25px 15px 10px 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+.french_flag{color: rgb(14, 10, 10);}
+.deutsch_flag{color: rgb(255, 255, 255);}
+
+.logout p{
+    margin: auto;
+    text-align: center;
+}
+.home-big-container{
+    display: flex;
+    justify-content: center;
+}
+.home-container{
+    text-align: center;
+    margin-top: 25px;
+}
+.home-container a{
+   margin: 20px;
+   display: inline-block;
+}
+.home-button{
+    width: 70%;
+    padding: 40px;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: transparent;
+    outline: 0 !important;
+    transition: 1s;
+}
+a.home-button{
+   text-decoration: none !important;
+}
+a.home-button:hover{
+    transform: scale(1.5, 1.3);
+
+}
+.home-button.lists{border: 5px solid#15f4ee; color: #15f4ee;}
+.home-button.play{border: 5px solid#d3120b; color: #d3120b;}
+.home-button.others{border: 5px solid#ddc808; color: #ddc808;}
+.home-button.lists:hover{
+    box-shadow: 0 5px 20px #15f4ee inset, 0 5px 20px #15f4ee,
+                0 5px 20px #15f4ee inset, 0 5px 20px #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+.home-button.play:hover{
+    box-shadow: 0 5px 20px #d3120b inset, 0 5px 20px #d3120b,
+                0 5px 20px #d3120b inset, 0 5px 20px #d3120b;
+    text-shadow: 0 0 5px #d3120b, 0 0 5px #d3120b;
+}
+.home-button.others:hover{
+    box-shadow: 0 5px 20px #ddc808 inset, 0 5px 20px #ddc808,
+                0 5px 20px #ddc808 inset, 0 5px 20px #ddc808;
+    text-shadow: 0 0 5px #ddc808, 0 0 5px #ddc808;
+}
+
+
+/* for the lists and the cards */
+.list-create{
+    margin: 20px auto;
+    text-align: center;
+}
+.list-create * {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+}
+.list-create input{
+    width: 300px;
+}
+.list-create button{
+    background-color: lightseagreen;
+}
+.list-create button:hover{
+    background-color: deepskyblue;
+}
+.lists-display{
+    margin: auto;
+    text-align: center;
+    margin: 0px 100px 0px 100px ;
+}
+.lists-display input{
+    margin: 10px;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    display: inline;
+    border-radius: 10px;
+    background-color: khaki;
+    width: 250px;
+}
+.lists-display input:hover{
+    background-color: darkkhaki;
+}
+.add-card{
+    margin-top: 25px;
+}
+.add-card button:hover{ background-color: rgb(238, 146, 40);}
+.cards-display{
+    margin: auto;
+    text-align: center;
+    margin: 0px 100px 0px 100px ;
+}.cards-display button{
+    margin: 10px;
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+    display: inline;
+    border-radius: 20px;
+    background-color: skyblue;
+    width: 200px;
+}
+.delete_list button:hover{background-color: crimson;}
+.delete_card button:hover{background-color: crimson;}
+.cards-display button:hover{
+    background-color: steelblue;
+}
+.card-content{
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.card-content *{
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    outline: 0 !important;
+    font-size: 30px;
+    width: 500px;
+}
+.card-content input{
+    width: 700px;
+    text-align: center;
+}
+.card-content button{
+    margin-top: 100px;
+    background-color: salmon;
+}
+.card-content button:hover{
+    background-color: crimson;
+}
+
+
+
+/* WHEN PLAYING */
+/* the paragraph */
+p.play{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+/* the answer form */
+div.answer-container{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+div.answer-container *{
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+}
+
+
+/* For the buttons*/
+.card-container{
+    margin: auto;
+    text-align: center;
+  }
+  
+  .btn-my{
+    border: none;
+    margin: 20px;
+    padding: 24px;
+    width: 33%;
+    height: 100px;
+    font-family: "montserrat",sans-serif;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: 0.6s;
+  }
+  
+  .btn1{
+    background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+  }
+  
+  .btn2{
+    background-image: linear-gradient(to left,#C4E538,#009432,#C4E538);
+  }
+  
+  .btn3{
+    background-image: linear-gradient(to left,#12CBC4,#0652DD,#12CBC4);
+  }
+  
+  .btn4{
+    background-image: linear-gradient(to left,#FDA7DF,#9980FA,#FDA7DF);
+  }
+  
+  .btn:hover{
+    background-position: right;
+  }
+
+
+
+
+
+
+
+
